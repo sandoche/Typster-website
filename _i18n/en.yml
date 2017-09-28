@@ -27,9 +27,10 @@ sections:
         url: https://typster.teemill.com/product/roboto-white/
         image: /
       - name: Qwerty Grey
-        url: /
+        url: https://typster.teemill.com/product/qwerty-grey/
         image: /
       - name: Helvetica White
         url: https://typster.teemill.com/product/helvetica-white/
+        image: /
   footer:
     copyright: Typster is made with ❤ in Paris
