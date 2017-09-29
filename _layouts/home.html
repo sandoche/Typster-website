@@ -2,9 +2,49 @@
 layout: default
 ---
 
-<div class="home">
-  <div class="home__headline-container">
-    <h1 class="home__headline">{% t headline %}</h1>
-    <a class="button home__cta" href="{% t call_to_action.link %}">{% t call_to_action.title %}</a>
+<header class="header">
+  <div class="header__text">
+    <h1 class="header__headline">{% t home.header.headline %}</h1>
+    <a href="#" class="button">{% t home.header.headline %}</a>
   </div>
-</div>
+  <div class="header__illustration">
+    <img class="header__image" src="{% t home.header.tshirt %}" alt="{% t home.header.alt %}">
+  </div>
+</header>
+
+<section class="trees feature__row">
+  <div class="feature__illustration trees__illustration">
+  </div>
+  <div class="feature__text">
+    <h2 class="feature__title">{% t home.trees.title %}</h2>
+    <p class="feature__text">{% t home.trees.description %}</p>
+  </div>
+</section>
+
+<section class="organic row">
+  <div class="feature__text">
+    <h2 class="feature__title">{% t home.organic.title %}</h2>
+    <p class="feature__text">{% t home.organic.description %}</p>
+  </div>
+  <div class="feature__illustration organic__illustration">
+  </div>
+</section>
+
+<section class="minimalist row">
+  <div class="feature__illustration">
+  </div>
+  <div class="feature__text minimalist__illustration">
+    <h2 class="feature__title">{% t home.minimalist.title %}</h2>
+    <p class="feature__text">{% t home.minimalist.description %}</p>
+  </div>
+</section>
+
+<section class="showcase">
+  {% for product in site.translations[site.lang].home.showcase.products %}
+    <div class="product">
+      <img src="{{ product.image }}" alt="{{ product.name }}">
+      <legend>{{ product.name }}</legend>
+      <a class="button" href="{{ product.url }}">{% t home.showcase.button %}</a>
+    </div>
+  {% endfor %}
+</section>
