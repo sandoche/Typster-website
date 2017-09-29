@@ -7,13 +7,13 @@ const WebpackPwaManifest = require('webpack-pwa-manifest');
 module.exports = Merge(ProdConfig, {
   plugins: [
     new WebpackPwaManifest({
-      name: 'Super-website',
-      short_name: 'Super PWA',
-      description: 'A super website made with love',
+      name: 'Typster',
+      short_name: 'Typster',
+      description: 'Organic cotton, minimalist T-shirt that saves the forests',
       orientation: "portrait",
       display: "standalone",
       start_url: "/",
-      theme_color: "#c0ffee",
+      theme_color: "#4de783",
       background_color: "#ffffff",
       icons: [
         {
