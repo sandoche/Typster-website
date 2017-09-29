@@ -30,7 +30,7 @@ ampdir: amp
 ### Google webmaster tools, Google Analytics, Doorbell and Cookie consent uncomment and put the API key
 #webmaster_verifications:
 #  google: verification_code
-#google_analytics: id
+google_analytics: UA-107257245-1
 #doorbell: appKey
 #cookie_consent: true
 

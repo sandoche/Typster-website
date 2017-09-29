@@ -34,6 +34,10 @@ home:
       - name: Helvetica White
         url: https://typster.teemill.com/product/helvetica-white/
         image: /
+    newsletter:
+      title: Like our T-shirt? Stay up to date with Typster
+      placeholder: your@email.com
+      button: Subscribe
 
 footer:
   copyright: Typster is made with ❤ in Paris
