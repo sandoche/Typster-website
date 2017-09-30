@@ -4,7 +4,7 @@ navigation:
       url: "https://medium.com/learning-lab"
     - name: Go shopping
       url: "https://typster.teemill.com"
-      icon: fa-cart
+      class: button
 
 home:
   header:
