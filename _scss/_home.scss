@@ -26,29 +26,42 @@
 
 .trees {
   &__illustration {
-
+    background-image: url('https://static1.squarespace.com/static/556a1885e4b0bdc6f0794659/t/577a8e0cebbd1a47dbec29ed/1467649577049/AdobeStock_27621934+%281%29.jpeg?format=2500w');
   }
 }
 
 .organic {
   &__illustration {
-
+    background-image: url('https://static1.squarespace.com/static/556a1885e4b0bdc6f0794659/t/577a8e0cebbd1a47dbec29ed/1467649577049/AdobeStock_27621934+%281%29.jpeg?format=2500w');
   }
 }
 
 .minimalist {
   &__illustration {
-
+    background-image: url('https://static1.squarespace.com/static/556a1885e4b0bdc6f0794659/t/577a8e0cebbd1a47dbec29ed/1467649577049/AdobeStock_27621934+%281%29.jpeg?format=2500w');
   }
 }
 
 .showcase {
-
+  @include container($container-padding);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: $sections-height;
 }
 
 .product {
-  &__image {
+  width: 30%;
+  padding: $container-padding;;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+  &__image {
+    width: 100%;
+    height: auto;
   }
 
   &__legend {
@@ -57,6 +70,13 @@
 }
 
 .newsletter {
+  background-color: $background-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: $sections-height;
+
   &__title {
 
   }
@@ -78,14 +98,20 @@
 
   &__text {
     width:50%;
-    min-height: 60vh;
+    min-height: $sections-height;
     background-color: $background-color;
+    padding: $container-padding;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
 
   &__illustration {
     width:50%;
-    min-height: 60vh;
-    background-color: #333;
+    padding: $container-padding;
+    min-height: $sections-height;
+    background-size: cover;
   }
 
   &__description {
