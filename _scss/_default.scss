@@ -3,7 +3,11 @@
 $container-width: 1200px;
 $container-padding: 30px;
 
+$sections-height: 85vh;
+
 $primary-color: #C8385A;
+$secondary-color: #c0ffee;
+$background-color: #eeeeee;
 $text-color: #333;
 $link-color: #7F7F7F;
 
@@ -52,13 +56,13 @@ a {
 
 .button {
   display: inline-block;
-  border: 1px solid lighten($link-color, 40%);
-  border-radius: 50px;
+  border: 3px solid $text-color;
   padding: 15px 30px;
   font-weight: 300;
 
   &:hover {
-    background-color: lighten($link-color, 49%);
+    color: #fff;
+    background-color: $text-color;
   }
 }
 

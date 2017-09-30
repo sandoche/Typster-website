@@ -1,14 +1,22 @@
 .header {
-  &__text {
 
+  @include container($container-padding);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: $sections-height;
+
+  &__text {
+    width:50%;
   }
 
   &__headline {
-
+    margin-top: -40px;
   }
 
   &__illustration {
-
+    width:50%;
   }
 
   &__image {
@@ -54,20 +62,29 @@
   }
 }
 
-.row {
-
-}
 
 .feature {
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
   &__title {
 
   }
 
   &__text {
-
+    width:50%;
+    height:100%;
+    background-color: $background-color;
   }
 
   &__illustration {
-
+    width:50%;
+    height:100%;
+    background-color: #333;
   }
 }
