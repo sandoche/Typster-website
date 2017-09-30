@@ -36,7 +36,7 @@ home:
         url: https://typster.teemill.com/product/helvetica-white/
         image:  /assets/images/tees/helvetica.png
   newsletter:
-    title: Like our T-shirt? Stay up to date with Typster
+    title: Like our T-shirt?<br>Stay up to date with Typster
     placeholder: your@email.com
     button: Subscribe
 
