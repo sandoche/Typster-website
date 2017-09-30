@@ -4,6 +4,7 @@
     {% assign page_paths = site.navigation_pages | default: default_paths %}
     <div class="navigation__branding">
       <a class="navigation__logo" href="{{ "/" | relative_url }}"><img src="{{ "/assets/images/logo.png" | relative_url }}" class="navigation__logo-img" alt="Typster"></a>
+      <a class="navigation__logo-mobile" href="{{ "/" | relative_url }}"><img src="{{ "/assets/images/icon.png" | relative_url }}" class="navigation__logo-img" alt="Typster"></a>
     </div>
     <div class="navigation__links">
       {% if page_paths %}
