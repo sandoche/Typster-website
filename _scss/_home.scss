@@ -5,7 +5,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  height: $sections-height;
+  min-height: $sections-height;
 
   &__text {
     width:50%;
@@ -78,13 +78,17 @@
 
   &__text {
     width:50%;
-    height:100%;
+    min-height: 60vh;
     background-color: $background-color;
   }
 
   &__illustration {
     width:50%;
-    height:100%;
+    min-height: 60vh;
     background-color: #333;
+  }
+
+  &__description {
+
   }
 }
