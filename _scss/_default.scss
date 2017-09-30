@@ -71,6 +71,42 @@ h2 {
   margin-top: 0;
 }
 
+input {
+  display: block;
+  margin: 0;
+  min-width: 0;
+  font-size: 18px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  -ms-border-radius: none;
+  -o-border-radius: none;
+  border-radius: none;
+  padding: 16px;
+  border: solid 1px gainsboro;
+  -webkit-transition: box-shadow 0.3s, border 0.3s;
+  -moz-transition: box-shadow 0.3s, border 0.3s;
+  -o-transition: box-shadow 0.3s, border 0.3s;
+  transition: box-shadow 0.3s, border 0.3s;
+	background: #fff;
+  margin-right: 20px;
+}
+input:focus {
+  outline: none;
+  border: solid 1px $secondary-color;
+  -webkit-box-shadow: 0 0 1px 1px $secondary-color;
+  -moz-box-shadow: 0 0 1px 1px $secondary-color;
+  box-shadow: 0 0 1px 1px $secondary-color;
+}
+input[type="email"] {
+  width: 40vw;
+}
+
 // Shared
 
 .button {
@@ -245,6 +281,7 @@ h2 {
   &__container {
     @include container($container-padding);
     color: $link-color;
+    text-align: center;
   }
 
 }

@@ -9,6 +9,7 @@
 
   &__text {
     width:50%;
+    padding-left: 30px
   }
 
   &__headline {
@@ -82,7 +83,7 @@
 .newsletter {
   background-color: $background-color;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: $sections-height;
@@ -127,4 +128,12 @@
   &__description {
 
   }
+}
+
+
+.mailchimp {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
