@@ -20,25 +20,26 @@
   }
 
   &__image {
-
+    width: 100%;
+    height:auto;
   }
 }
 
 .trees {
   &__illustration {
-    background-image: url('https://static1.squarespace.com/static/556a1885e4b0bdc6f0794659/t/577a8e0cebbd1a47dbec29ed/1467649577049/AdobeStock_27621934+%281%29.jpeg?format=2500w');
+    background-image: url('/assets/images/photos/forest.jpg');
   }
 }
 
 .organic {
   &__illustration {
-    background-image: url('https://static1.squarespace.com/static/556a1885e4b0bdc6f0794659/t/577a8e0cebbd1a47dbec29ed/1467649577049/AdobeStock_27621934+%281%29.jpeg?format=2500w');
+    background-image: url('/assets/images/photos/cotton.jpg');
   }
 }
 
 .minimalist {
   &__illustration {
-    background-image: url('https://static1.squarespace.com/static/556a1885e4b0bdc6f0794659/t/577a8e0cebbd1a47dbec29ed/1467649577049/AdobeStock_27621934+%281%29.jpeg?format=2500w');
+    background-image: url('/assets/images/photos/minimalist.jpg');
   }
 }
 

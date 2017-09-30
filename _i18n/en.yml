@@ -9,7 +9,7 @@ navigation:
 home:
   header:
     headline: Save our forests with our minimalist T-shirts made of organic cotton
-    tshirt: /assets/images/tshirt.png
+    tshirt: /assets/images/illustration.png
     call_to_action: See our T-shirts
     link: http://gooogle.fr
     alt: T-shirt Typster
@@ -18,7 +18,7 @@ home:
     description: For each t-shirt sold, we plant one tree through <a href="https://onetreeplanted.org/" target="_blank">ONETREEPLANTED</a> organization.
   organic:
     title: Organic cotton
-    description: Our T-shirt are made of organic cotton, because we want to take care of planet, we chose <a href="https://teemill.com" target="_blank">Teemill</a> as a provider of our t-shirts. They make good quality T-shirts with organic cotton and pigments.
+    description: Our T-shirt are made of organic cotton, because we want to take care of our planet, we chose <a href="https://teemill.com" target="_blank">Teemill</a> as a provider of our t-shirts. They make good quality T-shirts with organic cotton and organic pigments.
   minimalist:
     title: Minimalist design
     description: Our T-shirts are designed in France. The design are minimalist and use Typography to make beautiful T-shirt that anyone can wear.
