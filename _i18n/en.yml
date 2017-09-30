@@ -2,6 +2,7 @@ navigation:
   links:
     - name: Our story
       url: "https://medium.com/learning-lab"
+      class: button-empty
     - name: Go shopping
       url: "https://typster.teemill.com"
       class: button
@@ -40,4 +41,4 @@ home:
     button: Subscribe
 
 footer:
-  copyright: Typster is made with ❤ in Paris
+  copyright: Typster is made with <span class="accent">❤</span> in Parisby <a href="http://www.sandoche.com" target="_blank">Sandoche</a>
