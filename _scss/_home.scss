@@ -5,14 +5,14 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  min-height: $sections-height;
+  min-height: $header-height;
 
   &__text {
     width:50%;
   }
 
   &__headline {
-    margin-top: -40px;
+    margin-top: 0;
   }
 
   &__illustration {
@@ -20,8 +20,11 @@
   }
 
   &__image {
-    width: 100%;
-    height:auto;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    min-height: 0;
+    min-width: 0;
   }
 }
 
@@ -50,23 +53,29 @@
   justify-content: flex-start;
   align-items: center;
   min-height: $sections-height;
+  padding: $section-padding;
 }
 
 .product {
   width: 30%;
-  padding: $container-padding;;
+  padding: $container-padding;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
   &__image {
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    vertical-align: middle;
+    min-height: 0;
+    min-width: 0;
   }
 
   &__legend {
-
+    font-family: $secondary-font-family;
+    font-size: $font-smd;
+    margin-bottom: 30px;
   }
 }
 
@@ -101,7 +110,7 @@
     width:50%;
     min-height: $sections-height;
     background-color: $background-color;
-    padding: $container-padding;
+    padding: $section-padding;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,7 +119,7 @@
 
   &__illustration {
     width:50%;
-    padding: $container-padding;
+    padding: $section-padding;
     min-height: $sections-height;
     background-size: cover;
   }
