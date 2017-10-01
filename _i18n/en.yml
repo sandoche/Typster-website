@@ -12,7 +12,7 @@ home:
     headline: Save our forests with our minimalist T-shirts made of organic cotton
     tshirt: /assets/images/illustration.png
     call_to_action: See our T-shirts
-    link: http://gooogle.fr
+    link: "#tshirts"
     alt: T-shirt Typster
   trees:
     title: We plant trees
