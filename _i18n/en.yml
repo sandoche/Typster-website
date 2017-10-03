@@ -25,6 +25,7 @@ home:
     description: Our T-shirts are designed in France. The design are minimalist and use Typography to make beautiful T-shirt that anyone can wear.
   showcase:
     button: View
+    button_all: View more t-shirts
     products:
       - name: Roboto White
         url: https://typster.teemill.com/product/roboto-white/
