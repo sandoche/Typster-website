@@ -1,5 +1,14 @@
 <footer class="footer">
-  <div class="footer__container">
+  <div class="container">
+    <div class="footer__love">
       {% t footer.copyright %}
+    </div>
+    <div class="footer__social">
+      {% for social in site.translations[site.lang].footer.social %}
+        <a class="footer__link" href="{{ social.url }}" target="_blank">
+          <object data="{{ social.src }}" width="35" height="35" type="image/svg+xml" style="pointer-events: none;"></object>
+        </a>
+      {% endfor %}
+    </div>
   </div>
 </footer>

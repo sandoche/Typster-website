@@ -14,14 +14,13 @@ github_username:  sandoche
 author: Sandoche Adittane
 logo: assets/images/large-logo.png
 twitter:
-  username: sandochee
+  username: typstershop
 social:
-  name: Sandoche Adittane
+  name: Typster
   links:
-    - https://twitter.com/sandochee
-    - https://www.facebook.com/sandoche
-    - https://www.linkedin.com/in/sandoche
-    - https://plus.google.com/+SandocheADITTANE
+    - https://twitter.com/typstershop
+    - https://www.instagram.com/typstershop
+    - https://www.facebook.com/typster.xyz
     - https://github.com/sandoche
 
 languages: ["en"]
