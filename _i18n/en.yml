@@ -9,7 +9,7 @@ navigation:
 
 home:
   header:
-    headline: Save our forests with Typster minimalist T-shirts made of organic cotton
+    headline: "Save our forests with Typster's minimalist T-shirts made of organic cotton"
     tshirt: /assets/images/illustration.png
     call_to_action: See our T-shirts
     link: "#tshirts"
