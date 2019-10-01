@@ -50,6 +50,6 @@
   "dependencies": {
     "normalize.css": "^7.0.0",
     "scrollreveal": "^3.3.6",
-	"smooth-scroll": "^12.1.5"
+	  "smooth-scroll": "^12.1.5"
   }
 }

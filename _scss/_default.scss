@@ -120,6 +120,7 @@ input[type="email"] {
   border: 3px solid $text-color;
   padding: 12px 22px;
   font-weight: 300;
+  cursor: pointer;
 
   &:hover {
     color: #fff;
@@ -299,7 +300,15 @@ input[type="email"] {
   &__container {
     @include container($container-padding);
     color: $link-color;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__link {
+    display: inline-block;
+    margin-left: 10px;
   }
 
 }
