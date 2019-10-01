@@ -7,7 +7,7 @@ title: Typster
 email: sandoche@gmail.com
 description: Organic cotton, minimalist T-shirt that saves the forests
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://typster.xyz" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://typster.learn.uno" # the base hostname & protocol for your site, e.g. http://example.com
 theme_color: '#4de783'
 twitter_username: sandochee
 github_username:  sandoche
